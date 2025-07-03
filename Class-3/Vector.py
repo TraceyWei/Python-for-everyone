@@ -8,7 +8,8 @@ class Vector:
 
     # on class request
     def __mul__(self, other):
-        return Vector(self.x * other.x, self.y * other.y)
+    
+     return Vector(self.x * other.x, self.y * other.y)
 
     # HW - 1 how to divide two vectors
 
